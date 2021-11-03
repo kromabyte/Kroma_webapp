@@ -1,0 +1,142 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <!-- HOME SECTION-->  <!-- photo in css -->
+    <section id="hero">
+        <div class="container">
+          <div class="content-center topmargin-lg ">
+          <h1>Street Artist</h1>
+          <p class="topmargin-xs">Hello World! I'm Kroma an street artist from Concepción, Chile. 
+            My painting technique is the stencil painted with spray paint, I almost always paint 
+            at night because it's "illegal". I hope you enjoy seeing my work.</p>
+        </div>
+      </div>
+    </section>
+
+      <!-- PORTAFOLIO SECTION--> 
+    <section id="portfolio ">
+      <div class="container-fluid ">
+        <div class="content-center"> <!-- palabras --> 
+          <h2>What's the difference between <b>Art</b> and <b>Vandalism?</b> Which is the <b>Genius</b> or the <b>Anarquist?</b></h2>
+          <p>This is about becoming so famous until what you do becomes legal, generating such a great impact that the justice 
+            and morals of society have to be modified, just to be able to give a view from another perspective.
+          </p>
+        </div>
+          <!-- IMAGE 0 --> 
+        <div class="row justify-content-md-center">
+          <div class="col-md-5">
+            <div class="portfolio-container">
+              <div class="portfolio-details">
+                <a href="#">
+                  <h2>Neptuno on street</h2>
+                </a>
+                <a href="#">
+                  <p>Concepción/Chile</p>
+                </a>
+              </div>
+              <img src="static/images/neptuno.jpg" class="img-fluid" alt="portfolio 1">
+            </div>
+          </div>
+           <!-- IMAGE 1 --> 
+          <div class="col-md-5">
+            <div class="portfolio-container">
+              <div class="portfolio-details">
+                <a href="#">
+                  <h2>Yuri Gagarin</h2>
+                </a>
+                <a href="#">
+                  <p>Concepción/Chile</p>
+                </a>
+              </div>
+              <img src="/static/images/yuri1.jpg" class="img-fluid" alt="portfolio 2">
+            </div>
+          </div>
+           <!-- IMAGE 2 --> 
+          <div class="col-md-5">
+            <div class="portfolio-container">
+              <div class="portfolio-details">
+                <a href="#">
+                  <h2>Radioactive Love</h2>
+                </a>
+                <a href="#">
+                  <p>Concepción/Chile</p>
+                </a>
+              </div>
+              <img src="static/images/radioactivo.jpg" class="img-fluid" alt="portfolio 3">
+            </div>
+          </div>
+            <!-- IMAGE 3 --> 
+          <div class="col-md-5">
+            <div class="portfolio-container">
+              <div class="portfolio-details">
+                <a href="#">
+                  <h2>humbold penguin 1</h2>
+                </a>
+                <a href="#">
+                  <p>Concepción/Chile</p>
+                </a>
+              </div>
+              <img src="static/images/pinguino2.jpg" class="img-fluid" alt="portfolio 4">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center icons topmargin-sm">
+        <p class="text-dark font-weight-bold">Follow me on social networks</p>
+        <a class="icons-item" href="https://www.instagram.com/kroma_stencil/"><i class="fab fa-instagram"></i></a>
+        <a class="icons-item" href="https://www.facebook.com/kroma.stencil"><i class="fab fa-facebook"></i></a> 
+      </div>
+    </section>
+
+         <!-- ABOUT US SECTION --> 
+         <section id="aboutus" class="bg-light-grey">
+          <div class="container">
+            <div class="content-center">
+              <h2>keep calm, this is barely <b>illegal</b></h2>
+              <p>"If a law is unjust, a man is not only right to disobey it, he is obligated to do so. " —Mahatma Gandhi [...]</p>
+            </div>
+              <!-- IMAGE 0 --> 
+            <div class="row">
+              <div class="col-md-4">
+                <div class="member-container">
+                    <div class="card border-0 ">
+                      <a class="" ><img src="/static/images/cuadro1.jpg" class="card-img-top" alt="neptuno2" ></a>
+                      <div class="card-body" >
+                        <h6>Acrylic paint on canvas, Stencil technique, size 60x110cm.</h6>
+                        <p class="text-muted card-text">- American psycho</p>
+                      </div>
+                    </div>     
+                </div>      
+              </div>
+              <!-- IMAGE 1 --> 
+              <div class="col-md-4">
+                <div class="member-container">
+                  <div class="card border-0">
+                    <a class=""><img src="/static/images/lucifer.jpg" class="card-img-top" alt="neptuno2" ></a>
+                    <div class="card-body" >
+                      <h6>Spray paint on concrete wall, Stencil technique, size 110x220cm.</h6>
+                      <p class="text-muted card-text">- luxfero</p>
+                    </div>
+                  </div>               
+                </div>      
+              </div>
+              <!-- IMAGE 2 --> 
+              <div class="col-md-4">
+                <div class="member-container">
+                  <div class="card border-0 ">
+                    <a class=""  ><img src="/static/images/pagare.jpg" class="card-img-top" alt="neptuno2" ></a>
+                    <div class="card-body" >
+                      <h6>Spray paint painting on canvas, stencil technique, size 70x150cm.</h6>
+                      <p class="text-muted card-text">- Promissory note</p>
+                    </div>
+                  </div>                                  
+                </div>      
+              </div>
+            </div>
+          </div>
+          <div class="text-center topmargin-sm">
+            <p>I have more artworks</p>
+            <a href="/portfolio" class="text-dark font-weight-bold ">Check out my Portfolio</a>
+          </div>        
+        </section>
+{% endblock %}

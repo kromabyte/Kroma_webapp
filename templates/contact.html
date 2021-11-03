@@ -1,0 +1,60 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="bg-light-grey ">
+  <div class="container">
+    <div class="content-center">
+      <h2>Let's keep in <b>Touch</b></h2>
+    </div>
+    <div class="row">
+      <div class="col-md-6 topmargin-sm ">
+        <h3>If you have any questions about my work or any other inquiries, don't hesitate to contact me.</h3>
+        <p>
+          It can be anything: doubts about my painting technique, about buying and selling my works, proposing 
+          new projects, ideas in general, etc. Feel free to give me any constructive comments that can help me 
+          improve my art.            
+        </p>
+      </div>                        
+      <div class="col-md-6 topmargin-sm">
+        <form action="{{ url_for('success') }}" id="myform" method="POST"  >
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" name="Name" class="form-control"  id="Name" placeholder="Name" onfocusout="validateFirstName()">
+                <span class="helper-text"></span> 
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" name="Lastname"class="form-control"  id="Lastname" placeholder="Last Name" onfocusout="validateLastName()">
+                <span class="helper-text"></span>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <input type="email" name="Email" class="form-control" id="Email" placeholder="Email" onfocusout="validateEmail()">
+                <span class="helper-text"></span>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <textarea type="message" name="Message" class="form-control" id="Message" placeholder="Message" onfocusout="validateMessage()"></textarea>
+                <span class="helper-text"></span>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <button type="submit" href="#" id="submit" class=" btn btn-dark" >
+                Send Message
+              </button>
+            </div>                                
+          </div>
+        </form>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
