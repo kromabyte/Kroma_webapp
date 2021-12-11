@@ -17,10 +17,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Setup Python 3.x 
+      - name: Set up Python version
         uses: actions/setup-python@v1
         with:
-           python-version: 3.x
+           python-version: '3.9'
 
       - name: Create and start virtual environment
         run: |
@@ -61,3 +61,8 @@ jobs:
           app-name: 'kromawebapp'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DC0B2755C9FF4DCAAA1FF1D0E11983A0 }}
+          
+      - name: Setup Python 3.x 
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.x
