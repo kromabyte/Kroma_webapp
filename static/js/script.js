@@ -57,7 +57,7 @@ function validateMessage(){
     return true;
 }
 
-//UTITLITY FUNCTIONS
+//UTILITY FUNCTIONS
 
 //check if is empty
 function checkIfEmpty(field) {
