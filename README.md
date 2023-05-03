@@ -6,6 +6,8 @@ The main functions are to maintain a virtual record on the internet that shows t
 street artist nicknamed "Kroma" and also to allow visitors to the page direct contact with the artist in order to respond any query
 or comment that you want to express towards him.
 
+![screenshot image ](https://github.com/kromabyte/Kroma_webapp/blob/master/static/images/Screenshot.png)
+
 It begins by creating the web page templates with bootstrap, Html and customizing with Css, templates that contain the photographic
 record of the paintings painted by "Kroma" and various other important information expressed in words. The first html file is the cover
 of the web page, in it a small introduction is made to all the work that the artist did, showing images of his works, personalized images
