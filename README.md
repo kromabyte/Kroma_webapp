@@ -1,12 +1,13 @@
 # Kroma_webapp
-#### Page Link: <http://kroma.pythonanywhere.com/>
-#### Description:
+
 Kroma_webapp is a web application created with Flask, holistically it is a web page built with Html, Css, Javascript and Python.
 The main functions are to maintain a virtual record on the internet that shows the entire world the artistic work of the Chilean
 street artist nicknamed "Kroma" and also to allow visitors to the page direct contact with the artist in order to respond any query
 or comment that you want to express towards him.
 
 ![screenshot image ](https://github.com/kromabyte/Kroma_webapp/blob/master/static/images/Screenshot.png)
+
+#### Page Link: <http://kroma.pythonanywhere.com/>
 
 It begins by creating the web page templates with bootstrap, Html and customizing with Css, templates that contain the photographic
 record of the paintings painted by "Kroma" and various other important information expressed in words. The first html file is the cover
