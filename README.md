@@ -21,6 +21,10 @@ image stand out with respect  to the others that have not been selected (this is
 will be enlarged and displayed in a photo gallery where you can click on the respective forward and backward arrows to be able to better
 appreciate each work one by one, for this i used a Javascript library found on github.
 
+![screenshot image 2](https://github.com/kromabyte/Kroma_webapp/blob/master/static/images/screen2.png)
+
+
+
 The third page shows more information about the artist, here is the logo created in photoshop, plus a small review where the artist's
 history is explained a bit, how he came to do what he does and the reasons why he does it, followed by a sample of images where shows
 the method and working process used by the artist can be appreciated, such as the scalpel cuts of the stencil templates, experiments
